@@ -57,18 +57,42 @@ font-size: 20px;
 /*endnavigation*/
 
 /*home*/
-.home {
+
+.body {
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: auto;
+  flex-direction: column;
+}
+
+.topcontainer {
   background-color: #c7f0db;
   text-align: center;
   color: #464159;
-  height: 700px;
+  max-height: 700px;
   width: 100%;
   margin: 0;
   display: block;
-  position: relative;
   flex:1;
-  justify-content: center;
   align-items: center;
+    flex-direction: column;
+}
+
+.midcontainer {
+  display:block;
+  width: 100%;
+  height: auto;
+  align-items: center;
+    text-align: center;
+}
+
+.bottomcontainer {
+  display: block;
+  width: 100%;
+  height: auto;
+    text-align: center;
+    align-items: center;
 }
 
 .headingHome {
@@ -124,6 +148,11 @@ font-size: 20px;
   width: 80px;
 }
 
+.wendellwc {
+  width: 200px;
+  float: left;
+}
+
 .designHead {
   font-size: 20px;
   color: #8bbabb;
@@ -150,7 +179,7 @@ hr {
   height: auto;
   background-color: #8bbabb;
   padding: 15px;
-  -webkit-border-radius:8px;
+  border-radius:8px;
 }
 
 .messageMe a {
@@ -168,6 +197,8 @@ hr {
   position: relative;
   display: block;
   background-color:#c7f0db;
+  align-items: center;
+  text-align: center;
 }
 .Dfooter {
   padding: 5px;
