@@ -130,6 +130,17 @@ margin-bottom: 200px;
     width: 200px;
 }
 
+.whatican {
+  display: inline-block;
+  width: 60%;
+  margin: 25px 10px 25px 25px;
+}
+
+.whatican1 {
+  display: inline-block;
+  width: 60%;
+  margin: 25px 25px 25px 10px;
+}
 
 .headHI {
   top: 30px;
@@ -148,14 +159,6 @@ margin-bottom: 200px;
   color: #8bbabb;
   font-family: 'Roboto Mono', monospace;
 }
-.gif {
-  width: 80px;
-}
-
-.wendellwc {
-  width: 200px;
-  float: left;
-}
 
 .designHead {
   font-size: 20px;
@@ -163,10 +166,24 @@ margin-bottom: 200px;
   font-family: 'Roboto Mono', monospace;
 }
 
-.whatTable td {
-  padding: 0;
-  margin: 20px;
+.gif {
+  width: 80px;
+  float: left;
+}
 
+.gif1 {
+  width: 80px;
+  float: right;
+}
+
+.wendell2 {
+  width: 200px;
+  float: left;
+}
+
+.wendell3 {
+  width: 200px;
+float: right;
 }
 
 hr {
