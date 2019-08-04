@@ -1,0 +1,177 @@
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+}
+img {
+  vertical-align: middle;
+}
+
+div {
+  flex: 1;
+}
+
+.headingHome {
+  margin-top: 0;
+  position: relative;
+  top: 60px;
+  font-size: 90px;
+  font-family: 'Caveat', cursive;
+
+}
+
+.pHome {
+  padding-top: 0;
+  position: relative;
+  top: 30px;
+  font-size: 20px;
+  font-family: 'Roboto Mono', monospace;
+}
+
+.mountain {
+  max-width:70%;
+  height: auto;
+}
+
+.home {
+  background-color: #c7f0db;
+  text-align: center;
+  color: #464159;
+  height: 700px;
+  width: 100%;
+  margin: 0;
+  display: block;
+  position: relative;
+  flex:1;
+  justify-content: center;
+  align-items: center;
+}
+
+.myface {
+  display: block;
+}
+
+
+.wendell {
+    width: 200px;
+}
+
+.navigation {
+  margin: 0;
+  background-color: #c7f0db;
+  display: block;
+  position: relative;
+}
+
+.navList {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+
+}
+
+.listDiv li {
+  float: right;
+  margin-top: 50px;
+  position: relative;
+  right: 100px;
+}
+
+.listDiv li a {
+display: inline;
+color: #464159;
+padding: 25px;
+text-decoration: none;
+font-family: 'Roboto Mono', monospace;
+font-size: 20px;
+}
+
+.manIcon {
+  width: 90px;
+  position: relative;
+  bottom: 50px;
+  left: 180px;
+}
+
+.ico {
+  position: relative;
+  display: block;
+  flex: 1;
+}
+
+.headHI {
+  top: 30px;
+  font-size: 30px;
+  color: #8bbabb;
+  font-family: 'Roboto Mono', monospace;
+}
+.hiPara  {
+  font-size: 20px;
+  color: #464159;
+  font-family: 'Roboto Mono', monospace;
+}
+
+.header {
+  font-size: 40px;
+  color: #8bbabb;
+  font-family: 'Roboto Mono', monospace;
+}
+.gif {
+  width: 80px;
+}
+
+.designHead {
+  font-size: 20px;
+  color: #8bbabb;
+  font-family: 'Roboto Mono', monospace;
+}
+
+
+.whatTable td {
+  padding: 0;
+  margin: 0;
+
+}
+
+hr {
+ max-width: 7%;
+ border: 0;
+ border-top: 10px;
+ border-style: dotted;
+ border-color: #464159;
+}
+
+.imgDesign {
+  position: relative;
+  left: 250px;
+}
+
+.messageMe {
+  width: 15%;
+  height: auto;
+  background-color: #8bbabb;
+  padding: 15px;
+  -webkit-border-radius:8px;
+}
+
+.messageMe a {
+  display: inline;
+  color: #464159;
+  padding: 25px;
+  text-decoration: none;
+  font-family: 'Roboto Mono', monospace;
+  font-size: 20px;
+}
+
+.Dfooter {
+  width: 100%;
+  height: auto;
+  position: relative;
+  display: block;
+  background-color:#c7f0db;
+}
+.Dfooter {
+  padding: 5px;
+  font-family: 'Roboto Mono', monospace;
+  font-size: 15px;
+}
